@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script>
+            function conversion()
+            {
+              var varZ, mintosec;
+              varZ = parseInt(document.getElementById("minutes").value);
+              mintosec = varZ * 60;
+              document.getElementById("answer").value = mintosec;
+            }
+         </script>
+</head>
+<body>
+   <h2>Convert Minutes into Seconds</h2>
+      <p>Minutes: <input id="minutes"></p>
+      <button onclick="conversion()">Convert</button>
+      <p>Seconds = <output id="answer"></p>
+</body>
+</html>

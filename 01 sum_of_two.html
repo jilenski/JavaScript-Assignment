@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script>
+            function add()
+            {
+              var varX, varY, sum;
+              varX = parseInt(document.getElementById("firstnumber").value);
+              varY = parseInt(document.getElementById("secondnumber").value);
+              sum = varX + varY;
+              document.getElementById("answer").value = sum;
+            }
+         </script>
+</head>
+<body>
+   <h2>Return the Sum of Two Numbers</h2>
+      <p>First Number: <input id="firstnumber"></p>
+      <p>Second Number: <input id="secondnumber"></p>
+      <button onclick="add()">Add Them</button>
+      <p>Sum = <output id="answer"></p>
+</body>
+</html>
