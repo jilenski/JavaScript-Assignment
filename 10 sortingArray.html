@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+
+	<h2>JavaScript Array Sort</h2>
+    <p>Sort the array in ascending order:</p>
+
+    <p id="numArray"></p>
+    <p id="sorted"></p>
+
+    <script>
+    const num = [500, 5, 3, 4, 56, 100, 23, 6, 78, 60];
+    document.getElementById("numArray").innerHTML = num;  
+
+    num.sort(function(a, b){return a - b});
+    document.getElementById("sorted").innerHTML = num;
+    </script>
+	
+</body>
+</html>

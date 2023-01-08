@@ -7,18 +7,18 @@
       <title>Document</title>
 </head>
 <body>
-	<h2>Accessing Array Elements in JavaScript</h2>
+	<h2>Get Size of an Array</h2>
 	<p id="progarray"></p>
-    <br>
-    <p>The First Element in this Array:</p>
-	<p id="1stelem"></p>
+      <br>
+      <p>Return the total number of elements in this Array:</p>
+	<p id="arraysize"></p>
 		
 	<script>
 		let proglanguage = ["PHP", "JavaScript", "MySQL"];
-		document.getElementById("progarray").innerHTML = proglanguage;
+		document.getElementById("progarray").innerHTML = proglanguage; 
 
-		//accessing the first element in an Array
-		document.getElementById("1stelem").innerHTML = proglanguage[0];
+		//getting the size of an Array
+		document.getElementById("arraysize").innerHTML = proglanguage.length;
     </script>
 </body>
 </html>
