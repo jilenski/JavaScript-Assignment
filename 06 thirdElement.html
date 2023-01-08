@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+	<h2>Accessing Array Elements in JavaScript</h2>
+	<p id="prog1"></p>
+	<p id="prog2"></p>
+	<p id="prog3"></p>
+      <br>
+      <p>The Third Element in this Array:</p>
+	<p id="prog4"></p>
+		
+	<script>
+		let proglanguage = ["PHP", "JavaScript", "MySQL"];
+		document.getElementById("prog1").innerHTML = proglanguage[0]; 
+		document.getElementById("prog2").innerHTML = proglanguage[1]; 
+		document.getElementById("prog3").innerHTML = proglanguage[2]; 
+
+		//accessing the third element in an Array
+		document.getElementById("prog4").innerHTML = proglanguage[2];
+    </script>
+</body>
+</html>
