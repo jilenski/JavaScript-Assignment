@@ -9,16 +9,12 @@
 <body>
 	<h2>Finding an Element in an Array</h2>
     <br>
-    Let X = <input id="searching">
-    <button type="button" onclick="check">Search</button>
-    <br><br>
     <p id="result"></p>
 
     <script>
     var text = ["PHP", "CSS", "JavaScript", "Hello", "Laravel", "Node"];
-    var check = text.includes("Hello")
 
-    document.getElementById("result").innerHTML = check;
+    document.getElementById("result").innerHTML = text.includes("Node");
     </script>
 	
 </body>
